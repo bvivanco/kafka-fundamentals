@@ -41,3 +41,11 @@ Finanzas:
 Marketing:
 
 /opt/bitnami/kafka/bin$ kafka-console-consumer.sh --bootstrap-server 0.0.0.0:9091,0.0.0.0:9092,0.0.0.0:9093 --topic mx-transaction --group marketing
+
+Salesforce:
+
+opt/bitnami/kafka/bin/kafka-console-consumer.sh --bootstrap-server 0.0.0.0:9091,0.0.0.0:9092,0.0.0.0:9093 --topic mx-transaction --group salesforce
+
+TI:
+
+/opt/bitnami/kafka/bin/kafka-console-consumer.sh --bootstrap-server 0.0.0.0:9091,0.0.0.0:9092,0.0.0.0:9093 --topic mx-transaction --group ti
