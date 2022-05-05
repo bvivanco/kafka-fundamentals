@@ -15,7 +15,7 @@ docker compose -f <file.yml> down
 docker ps
 ![image](https://user-images.githubusercontent.com/8194954/166873561-e2a28b37-35b9-4f65-a40c-86f8aa820899.png)
 
-### Topics
+## Topics
 
 - Creamos un topic en una Kafka Broker
 
@@ -30,7 +30,7 @@ lication-factor 3 --partitions 3
  
 ![image](https://user-images.githubusercontent.com/8194954/166874062-731c59fc-5d9b-4286-a30f-5c74d1c5bf8a.png)
 
-### Consumidores
+## Consumidores
 
 - Creamos consumidores en una Kafka Broker por cada area
 
