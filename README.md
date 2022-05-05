@@ -33,6 +33,7 @@ lication-factor 3 --partitions 3
 ## Consumidores
 
 - Creamos consumidores en una Kafka Broker por cada area
-
-kafka-console-consumer.sh --bootstrap-server 0.0.0.0:9091,0.0.0.0:9092,0.0.0.0:9093 --topic mx-transaction --gr
-oup finance
+Finanzas:
+/opt/bitnami/kafka/bin$ kafka-console-consumer.sh --bootstrap-server 0.0.0.0:9091,0.0.0.0:9092,0.0.0.0:9093 --topic mx-transaction --group finance
+Marketing:
+/opt/bitnami/kafka/bin$ kafka-console-consumer.sh --bootstrap-server 0.0.0.0:9091,0.0.0.0:9092,0.0.0.0:9093 --topic mx-transaction --group marketing
